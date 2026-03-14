@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+<h2>AgriChain Dashboard</h2>
+</nav>
+
+<div class="container">
+
+<h2>Add Product Record</h2>
+
+<input id="farmer" placeholder="Farmer Name">
+<input id="product" placeholder="Product Name">
+<input id="stage" placeholder="Stage (Farmer / Transport / Retailer)">
+
+<button onclick="addRecord()">Add Record</button>
+
+<h2>Supply Chain Records</h2>
+
+<table>
+
+<thead>
+<tr>
+<th>Block</th>
+<th>Farmer</th>
+<th>Product</th>
+<th>Stage</th>
+</tr>
+</thead>
+
+<tbody id="tableBody"></tbody>
+
+</table>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
